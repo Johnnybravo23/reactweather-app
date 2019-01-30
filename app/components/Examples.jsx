@@ -1,5 +1,5 @@
 var React = require('react');
-var {Link} = require('react-router');
+var { Link } = require('react-router');
 
 var Examples = (props) => {
   return (
@@ -8,7 +8,7 @@ var Examples = (props) => {
       <p>Here are a few example locations to try out:</p>
       <ol>
         <li>
-          <Link to='/?location=Philadelphia'>Philadelphia, PA</Link>
+          <Link to='/?location=Gauteng'>Gauteng, SA</Link>
         </li>
         <li>
           <Link to='/?location=Rio'>Rio, Brazil</Link>
